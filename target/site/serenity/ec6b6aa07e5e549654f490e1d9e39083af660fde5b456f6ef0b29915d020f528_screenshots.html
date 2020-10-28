@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="be1ffb90f4133517596b400beeb5d60c6a84f2a8f06f53c799d0cb483205a4b8.html">Pagina Tours</a></span>
+                > <span class="truncate-60"><a
+                    href="ec6b6aa07e5e549654f490e1d9e39083af660fde5b456f6ef0b29915d020f528.html">Search available flights </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-10-2020 02:47</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Pagina Tours </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                as a user I want to edit my ships to find available flights
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search available flights
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="856ca7c52db79a880ae5d05a9df81c2c0905739875192fa651a4ab282cd53fa9.png" title="Given the user wants to find available flights" width="1366"/>
+                <img src="2967c0fd43f3496057dc39c580373a5d4695585c52416f82a9288d1e244f15ea.png" title="usuario opens the Open page" width="1366"/>
+                <img src="bef16c9e1670541d92b7fcd22ba43e65a8e764427e67f8dcfeccf7283c37e3a2.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="06096debc89277d0f6a86536e2876cda05fa1764fcb02742de04fab5d047f7b3.png" title="usuario enters 'Diego' into Select language" width="1366"/>
+                <img src="569855820182f88a052ca88788d2eca5a3d6e6553f17753a1cb0d836bf292b07.png" title="usuario enters 'Sanabria' into Select language" width="1366"/>
+                <img src="bc6901e066d7e553fe10eee8691bb00e34d55b97e807b21cae29877954449e2b.png" title="usuario enters 'diego-@hotmail.com' into Select language" width="1366"/>
+                <img src="51fd974bd9ae3578739d3cfc0e27d5cc5cee7194570a3b5834729beaef7f3108.png" title="usuario clicks on Select language" width="1366"/>
+                <img src="d63de1855ae2686f603c7c41ed205506760abd08f818a79ede983d36cc9f122c.png" title="usuario clicks on Select language" width="1366"/>
+                <img src="4271af50024137622cefe142e3a1669a9d4e2df3c03ddef7c8a6e0146dd4fe12.png" title="usuario clicks on Select language" width="1366"/>
+                <img src="0abe6203bb59dd8c4497f69cef37c588e2becbfcacb924f17f24c3fbf9400c3f.png" title="usuario clicks on Select language" width="1366"/>
+                <img src="a81938e1013f6a4b303243e47c23a0373d184ba8147d1451bdb6f6eeef7a9e30.png" title="usuario clicks on Select language" width="1366"/>
+                <img src="e0a591b0e4f44d28a7eb5a68e0e085a12eeab07823d733cc84dece3b488e5e00.png" title="usuario clicks on Select language" width="1366"/>
+                <img src="4323aa96930f8c6fe0446e7771d56bc190c4fa920fca557a43fe40064bd270e1.png" title="usuario clicks on Select language" width="1366"/>
+                <img src="57f4660fe9085b6d48d5aebaf72b5ca5ec73b1821777704b5de6b37bec9be15e.png" title="When Add user address data on the page Add your address" width="1366"/>
+                <img src="b76b511ffeda0503a001afd0f9eb14fbc90a9e9698bf65e817eb085c83cb351d.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="3f4b646e459e43373405b57ecad91d3b3fea7d8809efa3b885165d72c5d88380.png" title="usuario enters 'Armenia' into select the button to change the language" width="1366"/>
+                <img src="c9abea9a9e6b7731cbe81b421e7d4ef04b5532c34cdca9ef404b0a015e2b1848.png" title="usuario enters '663' into select the button to change the language" width="1366"/>
+                <img src="f23bd3a84507e9b3950058729f41a11c5b0f882ea2122e9154412b6e93d4ac68.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="af109a19539f21cbca216f993ce7d5bd42293f2bcd9888a1237106513cd5640d.png" title="usuario enters 'Colombia' into select the button to change the language" width="1366"/>
+                <img src="dfd6f625d76f6df23a9d393ac4a798235775d0776afbabaf2a03029314ca5a73.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="a72c20dc6a64386533101154c24354bb50af6e696fd0a584102e80f1c52f5d8f.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="5aebc2e16521896c06e76541610f88246fd4c5bc6a22e0bd57ed3f549db2242b.png" title="When Enter device information on the page Tell us about your devices" width="1366"/>
+                <img src="01592e74a0d42b98ff1f8a55ef3c85f03646b1e2333f910f00e85b44607d6a24.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="1873ef21db7c5fd3f7501e4e0c7edb72b260d2d23249d01e4443e27c145ca92d.png" title="usuario enters 'Windows' into select the button to change the language" width="1366"/>
+                <img src="b61eff0d73007c1374371e2251197f2fc1d10798d090ec6fe7d00790b525802e.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="3c1f881835d6790991d44c04a920b210c896025d8d158cec15ebf940788678a5.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="884e982c678fa10bc944bb94983ec78c83adbb4c1c9380b240bd6b4571cb955f.png" title="usuario enters 'XP 64' into select the button to change the language" width="1366"/>
+                <img src="32465ab03c52d197cf523901b1ede6039e6877a455e142f06eab1d8faf15455e.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="34cbf6bc2e20427a6a239b1729e618cd7d65c15fe522c238a4891f96dcf0be24.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="017d11356d98676beb455492794fff0035166a126b93697eae121d02440828de.png" title="usuario enters 'Arabic' into select the button to change the language" width="1366"/>
+                <img src="bb40a0c45599de7255de5d39f0a548222603e44e54811588307b8e8379e766e8.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="f950361fd244be813e22b94f1c13838cecf3fbbd8b9a7552096fa1d77acbc12f.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="84957c23aba6d815dcf4d982e9b466e090a7487333025ba3978d78a2173cd189.png" title="When Enter the password on the page The last step" width="1366"/>
+                <img src="7adbf2bb2f16080c2e3d1485589860697f335b44101ff117833a2191384da1a6.png" title="usuario enters 'DIEGOsanabria#1985' into select the button to change the language" width="1366"/>
+                <img src="c38adf6f0caa670476bcefac9f014fefacb174abe3ee306168280b672eef1b4d.png" title="usuario enters 'DIEGOsanabria#1985' into select the button to change the language" width="1366"/>
+                <img src="5423471e187f5dc1d7d3a853d0aeab1c7365d19388ffd9e15bf7dcf5bafd1b7d.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="84957c23aba6d815dcf4d982e9b466e090a7487333025ba3978d78a2173cd189.png" title="usuario clicks on select the button to change the language" width="1366"/>
+                <img src="84957c23aba6d815dcf4d982e9b466e090a7487333025ba3978d78a2173cd189.png" title="Then find the welcome page with the message The last step" width="1366"/>
+                <img src="84957c23aba6d815dcf4d982e9b466e090a7487333025ba3978d78a2173cd189.png" title="Then answer: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

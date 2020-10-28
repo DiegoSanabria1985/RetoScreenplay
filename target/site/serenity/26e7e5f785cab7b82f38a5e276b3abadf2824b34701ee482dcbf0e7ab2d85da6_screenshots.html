@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="254524f6bd1eb1591f2a9b87ceeb7b725db548da607cb017f99e08a91f946640.html">Page Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="26e7e5f785cab7b82f38a5e276b3abadf2824b34701ee482dcbf0e7ab2d85da6.html">enter all the data to create a new user </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-10-2020 16:14</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Page Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                as a user I want to enter all the data to create a new account
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">enter all the data to create a new user
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="599c3d98680fdca9cadf13d14ddcddff5b96ef384d255b0e4037cf881d014d89.png" title="Given Diego wants to create a new user" width="1366"/>
+                <img src="3ba2f40077c4624e0ffa89e6b437eaf9265c1acc03dc1c7d52e807c9c10c1dc8.png" title="usuario opens the Open page" width="1366"/>
+                <img src="f4712db05e11ccaf26f06a6619f6540b1e7ec8a019fe1f1c940a8fad0aa15b7a.png" title="usuario clicks on Press the button join" width="1366"/>
+                <img src="600391fd7c0ed8accaaf203a837c4875fe1f14f88dcd6ec46eb5351e245ee85c.png" title="usuario enters 'Diego' into register name in the page" width="1366"/>
+                <img src="9ea2df17a087338333ace7b78cc8e82edb19490afa0576115254b9d8f3094287.png" title="usuario enters 'Sanabria' into register lastname in the page" width="1366"/>
+                <img src="70901221fddc2669c019137b7eeebc7f19f83e4865ea5f3e949ded78530b71c8.png" title="usuario enters 'diego-@hotmail.com' into register email in the page" width="1366"/>
+                <img src="64927466a1c36cb5ea0d57ba14c236cece6ebbfa1c321081b4fa393ddd96edc2.png" title="usuario clicks on press the months field" width="1366"/>
+                <img src="4c9a846c2b921f0590dda6b0ca1343e2cc1dc40deda5cfb0de0793d88f3b8629.png" title="usuario clicks on select the month of February" width="1366"/>
+                <img src="7fd987551fe08d4d80e4b3d0b07a8aa9895a52d7c46ece82543253e06692dbbf.png" title="usuario clicks on press the day field" width="1366"/>
+                <img src="97fb3bc441d4b0572356b57651cc94bfb2a9bd86e70e3c3480b119cc381f5405.png" title="usuario clicks on select the day of birth" width="1366"/>
+                <img src="807594a2df6f0fa2db35d87fb1dcb4782be9313e35b0f017776b25fce1fb7e4b.png" title="usuario clicks on press the year field" width="1366"/>
+                <img src="d05499407a90d3a7fdc38564e4703cda971b5e99893cfe087686b3708569174d.png" title="usuario clicks on 
+select year of birth" width="1366"/>
+                <img src="86dd49b9ee40b004a9aef9988ec969a1027ac0609a7bf5f031fb089a7cd867a4.png" title="usuario clicks on press next page button" width="1366"/>
+                <img src="24f97197fa31809d2af3d0316df9a46fe4b6269f11f7e2918fb72115ebebfe39.png" title="When Add user address data on the page Add your address" width="1366"/>
+                <img src="9c55e317ad4f065a735d1f331b802351d17a539a9adfdf28e7118357b6ff7b27.png" title="usuario clicks on press the city field" width="1366"/>
+                <img src="bfa11e9d98b560259fd71ed3cc785e425fc665f2048f736d24ba3f3aa22fab20.png" title="usuario enters 'Armenia' into press the city field" width="1366"/>
+                <img src="11b6fdfd0fbc86b8407b0c4423aae41477f00d81eb1568e0803757b46dbe6d35.png" title="usuario enters '663' into enter zip code" width="1366"/>
+                <img src="7f4e79997159e51be95688edb9a13935cb7d57ccb4b7e8a274f6f2aea71edaaf.png" title="usuario clicks on press the country field" width="1366"/>
+                <img src="6e7a7c7092d3e183d302c701429ea74a20eadcef034e67f7e319a999110e32c9.png" title="usuario enters 'Colombia' into enter the country" width="1366"/>
+                <img src="8e448397b74a3923490d7bdce39a282249740768c38cee7d53eef39f22d4a2af.png" title="usuario clicks on select the country Colombia" width="1366"/>
+                <img src="24f97197fa31809d2af3d0316df9a46fe4b6269f11f7e2918fb72115ebebfe39.png" title="usuario clicks on press the next page button" width="1366"/>
+                <img src="6098a8d84d01e572e236e8695870f7707d4e72f670b9bbe1200a80ab087f4eb9.png" title="When Enter device information on the page Tell us about your devices" width="1366"/>
+                <img src="2164d8c8eeaa558044d80a4af451b94519882d3e25127cb974c1c4f895cfcbb2.png" title="usuario clicks on 
+press field your computer" width="1366"/>
+                <img src="a6fc87d9229471d993cb80ccb3b783ccabfd967c08c8f027ae69da5f0ea5c85c.png" title="usuario enters 'Windows' into enter text windows" width="1366"/>
+                <img src="c5b9590b8a76938590960c8ced3a89989bd8c690d49e696c0460e9c6c5f3513c.png" title="usuario clicks on select the windows option" width="1366"/>
+                <img src="dbcb719310004d1c92f64414497c900860914a89335490b8b650a80b74d0b161.png" title="usuario clicks on press the version field" width="1366"/>
+                <img src="f28e2ac3aa6fdb6b898e382620edc4e47fa0f2448acf7584f852e964ffb10334.png" title="usuario enters 'XP 64' into 
+enter text XP" width="1366"/>
+                <img src="65dd434cad1315990f7be2ef120f6dbf76eeaca93b8f328a5af987648069e13a.png" title="usuario clicks on select option xp" width="1366"/>
+                <img src="9b66d06e32de88b74e921edfd8255411f2aa9badc9be2425a6e987adf78861d1.png" title="usuario clicks on press the language field" width="1366"/>
+                <img src="c1cf2a260b796c471f755955568bddb43f7547a94e3b174c7a3cbcab57d6ef0e.png" title="usuario enters 'Arabic' into enter language" width="1366"/>
+                <img src="5f0595540f70efba3aac51586296950e4d5231a153a48a3f95970044dc42b313.png" title="usuario clicks on select the arabic language" width="1366"/>
+                <img src="4b78f075f163d7dd69d11d234b051e1e0e386e5bea209c6da4aecf5d71c6d1dc.png" title="usuario clicks on select next step button" width="1366"/>
+                <img src="e0d497ee3602f8683042999044a8671ea549ca540e3d94fd5a9dcc62c420b427.png" title="When Enter the password on the page The last step" width="1366"/>
+                <img src="12ced4baf4aecfa239c48fabcb122b535888bf75ff9391af603b4f263310856c.png" title="usuario enters 'DIEGOsanabria#1985' into enter user password" width="1366"/>
+                <img src="d5825a4bc5c1194a7aec300c8d308f8f64f8d32cfb2d3684332e06b9d1123666.png" title="usuario enters 'DIEGOsanabria#1985' into confirm user password" width="1366"/>
+                <img src="46837c98e586d7a26bb1c1f724eead84c6da0bba508218af4118a1758820dcc7.png" title="usuario clicks on press check to accept terms" width="1366"/>
+                <img src="e0d497ee3602f8683042999044a8671ea549ca540e3d94fd5a9dcc62c420b427.png" title="usuario clicks on press check to accept privacy terms" width="1366"/>
+                <img src="e0d497ee3602f8683042999044a8671ea549ca540e3d94fd5a9dcc62c420b427.png" title="Then find the welcome page with the message The last step" width="1366"/>
+                <img src="e0d497ee3602f8683042999044a8671ea549ca540e3d94fd5a9dcc62c420b427.png" title="Then answer: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
